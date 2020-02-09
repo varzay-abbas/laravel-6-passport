@@ -1,4 +1,11 @@
-# Laravel passport 
+## Laravel passport Install
+- git clone git@github.com:varzay-abbas/laravel-6-passport.git
+- composer install
+- change database settings as per needs
+- php artisan migrate
+
+
+# Laravel passport setup
 What is Passport?
 APIs typically use tokens to authenticate users and do not maintain session state between requests. 
 Laravel makes API authentication a breeze using Laravel Passport, which provides a full OAuth2 server implementation 
